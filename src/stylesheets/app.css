@@ -1,0 +1,29 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #DCDCDC;
+}
+
+img {
+  height: 20rem;
+  width: 70%;
+  margin-top: 2rem;
+}
+
+.box-div {
+  border: 1px solid black;
+  margin-top: 2rem;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+li {
+  padding: 10px;
+}
+
+h3 {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #0000FF;
+}
