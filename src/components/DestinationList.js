@@ -2,10 +2,11 @@ import React, { useState } from 'react'
 import Destination from './Destination'
 
 const DestinationList = props => {
-  const [selectedId, setSelectedId] = useState(null)
+
   const favoriteSpot = props.data.favoritePlaceId
 
   const destinationObjectArray = props.data.places.map((destinationObject) => {
+  const [selectedId, setSelectedId] = useState(null)
     let selected = false;
     const setSelectedIdClosure = event => {
       event.preventDefault()
