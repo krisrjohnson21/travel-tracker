@@ -39,7 +39,9 @@ const DestinationList = props => {
   return(
     <div>
       {destinationObjectArray}
-      {favoriteClass}
+      <span className="favorite">
+        {favoriteClass}
+      </span>
     </div>
   )
 }
