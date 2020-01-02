@@ -7,7 +7,7 @@ const DestinationList = props => {
   let favoriteClass = ""
 
   const destinationObjectArray = props.data.places.map((destinationObject) => {
-  const [selectedId, setSelectedId] = useState(null)
+    const [selectedId, setSelectedId] = useState(null)
     const setSelectedIdClosure = event => {
       event.preventDefault()
       if (destinationObject.id === selectedId) {
