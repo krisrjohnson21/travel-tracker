@@ -24,6 +24,6 @@
   "dependencies": {
     "react": "~16.8.0",
     "react-dom": "~16.8.0",
-    "yarn": "^1.21.1"
+    "yarn": "^1.22.0"
   }
 }
